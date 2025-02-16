@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&display=swap');
+
+.navbar {
+
+    height: 7vh;
+    width: 100vw;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: white;
+
+}
+
+nav {
+
+    font-family: "Aldrich", serif;
+    font-weight: 400;
+    font-style: normal;
+    height: 7vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: 1px solid rgb(169, 166, 166);
+
+    width: 100vw;
+
+
+
+
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+
+    li {
+        list-style-type: none;
+        text-decoration: none;
+        font-size: 1.3rem;
+
+        a {
+            text-decoration: none;
+        }
+
+
+        &:hover {
+            color: grey;
+            cursor: pointer;
+
+
+        }
+    }
+}
+
+@media screen and (max-width:460px) {
+
+    .navbar {
+
+        height: 7vh;
+        width: 100vw;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background-color: white;
+
+    }
+
+    nav {
+
+        font-family: "Aldrich", serif;
+        font-weight: 400;
+        font-style: normal;
+        height: 7vh;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border-bottom: 1px solid rgb(169, 166, 166);
+
+        width: 100vw;
+
+
+
+
+    }
+
+    ul {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        list-style-type: none;
+        text-decoration: none !important;
+
+
+        li {
+            list-style-type: none;
+            text-decoration: none;
+            font-size: 1rem;
+
+
+            &:hover {
+                color: grey;
+                cursor: pointer;
+            }
+        }
+    }
+
+
+}

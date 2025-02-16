@@ -1,0 +1,101 @@
+#Contactus {
+    height: 30vh;
+    width: 100vw;
+    background-color: black;
+    color: white;
+    font-family: "Roboto Flex", serif;
+    font-optical-sizing: auto;
+
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0,
+        "wdth" 100,
+        "GRAD" 0,
+        "XOPQ" 96,
+        "XTRA" 468,
+        "YOPQ" 79,
+        "YTAS" 750,
+        "YTDE" -203,
+        "YTFI" 738,
+        "YTLC" 514,
+        "YTUC" 712;
+
+    h2 {
+        color: white;
+        text-align: center;
+        padding-top: 1rem;
+    }
+}
+
+.divs {
+    background-color: grey;
+    height: 30vh;
+    width: 100vw;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+
+    .first {
+        display: flex;
+        align-items: center;
+        padding-top: 1rem;
+        flex-direction: column;
+        height: 30vh;
+        width: 32vw;
+
+
+
+        ul {
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            padding-top: 2rem;
+            gap: 1rem;
+            text-decoration: underline;
+        }
+    }
+
+    .second {
+        display: flex;
+        align-items: center;
+        padding-top: 1rem;
+        flex-direction: column;
+        height: 30vh;
+        width: 32vw;
+
+
+        ul {
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            padding-top: 2rem;
+            gap: 1rem;
+            text-decoration: underline;
+        }
+    }
+
+    .third {
+        display: flex;
+        align-items: center;
+        padding-top: 1rem;
+        flex-direction: column;
+        height: 30vh;
+        width: 32vw;
+
+
+        ul {
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            padding-top: 2rem;
+            gap: 1rem;
+
+            text-decoration: underline;
+        }
+
+        li {
+            font-size: 0.7rem;
+        }
+
+    }
+}
